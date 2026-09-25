@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(242, 242, 250);
+}
+
+p {
+    font-size: medium;
+    color: rgb(61, 110, 201);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(84, 84, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    font-size: small;
+    color: rgb(43, 67, 201);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    border-radius: 15px;
+    border: 2px solid rgb(133, 128, 128);
+}
