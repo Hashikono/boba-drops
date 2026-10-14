@@ -1,31 +1,43 @@
 body {
     background-color: rgb(242, 242, 250);
+    /*background-image: url("https://i.pinimg.com/originals/d8/9f/a3/d89fa383107571201d3b2673e4e9a51b.gif");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     font-size: medium;
     color: rgb(61, 110, 201);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
     text-align: center;
     color: rgb(84, 84, 223);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lucida Handwriting", cursive;
 }
 
 li {
-    font-size: small;
+    font-size: 15.5px;
     color: rgb(43, 67, 201);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img {
     border-radius: 15px;
     border: 2px solid rgb(133, 128, 128);
+    object-fit: contain;
+    height: 275px;
+    display: block;
+    width: auto;
 }
 
 figcaption {
+    margin-top: 3px;
     font-size: small;
     color: rgb(39, 70, 127);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -33,4 +45,21 @@ figcaption {
 
 hr {
     border: 1.5px solid rgb(18, 129, 194);
+}
+
+/* Neighboring images */
+.neighbor {
+  display: flex;       
+  gap: 10px;         
+  justify-content: left;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.neighbor figure {
+  margin: 0;
+  flex: 1;
+  max-width: 350px;      
 }
