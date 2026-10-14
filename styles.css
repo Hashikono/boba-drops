@@ -24,3 +24,13 @@ img {
     border-radius: 15px;
     border: 2px solid rgb(133, 128, 128);
 }
+
+figcaption {
+    font-size: small;
+    color: rgb(39, 70, 127);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border: 1.5px solid rgb(18, 129, 194);
+}
